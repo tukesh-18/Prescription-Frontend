@@ -3,9 +3,9 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base:"/Prescripto-frontend",
+  base:"/",
   plugins: [
-    [react()],
+    react(),
     tailwindcss(),
   ],
   server:{port:5173}
